@@ -114,9 +114,14 @@ public class MainActivity extends AppCompatActivity
             Intent i = new Intent(getApplicationContext(), CommentActivity.class);
             startActivity(i);
         }
+        else if (id == R.id.nav_chatroom) {
+            Intent i = new Intent(getApplicationContext(), chatActivity.class);
+            startActivity(i);
+        }
 
 
-            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }

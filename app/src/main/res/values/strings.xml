@@ -9,6 +9,10 @@
     <string name="bacterialwilt">Bacterialwilt affects tomatoes and eggplant</string>
     <string name="fruitworm">The tomato fruitworm feeds on tomato leaves and fruits</string>
     <string name="market">Kilimo Market Place</string>
+    <string name="dialog_title">Location</string>
+    <string name="ok_label">OK</string>
+    <string name="dismiss_label">Dismiss</string>
+    <string name="clear_all_label">Clear all</string>
     <string name="items">Maize
         Beans
         Carrots
@@ -18,15 +22,18 @@
         <item>Maize</item>
         <item>SweetPotatoes</item>
     </string-array>
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Kiswahili</item>
+    </string-array>
     <string-array name="Select_Location">
-        <item>Kitale</item>
-        <item>Emali</item>
-        <item>Butali</item>
-        <item>Kiminini</item>
-        <item>Thika</item>
-        <item>Juja</item>
-        <item>Kitengela</item>
-        <item>Pokot</item>
+        <item>Busia Rainfall: 1000mm-1600mm Soil: sandy loam Crops: Maize, Tomotoes, Beans</item>
+        <item>Bungoma Rainfall: 800-1500mm Soil: Loamy  Crops: Maize, Cassava, Sweetpotatoes</item>
+        <item>Nandi Rainfall: 900-1400mm Soil: Young soils Crops: Maize, Carrots, Peas </item>
+        <item>Trans Nzoia Rainfall: 1700mm-2500mm Soil: Alluvial crops grown: Maize, Tomotoes, Beans</item>
+        <item>Uasin Gishu Rainfall: 1500mm-2000mm Soil: Alluvial crops grown: Maize, Potatoes, carrots</item>
+        <item>Narok Uasin Gishu Rainfall: 1000mm-1800mm Soil: Alluvial crops grown: Maize, Tomatoes, carrots</item>
+        <item>Kakamega Uasin Gishu Rainfall: 800mm-1200mm Soil: Alluvial crops grown: Maize, Beans, Cassava</item>
     </string-array>
 
     <string name="action_settings">Settings</string>

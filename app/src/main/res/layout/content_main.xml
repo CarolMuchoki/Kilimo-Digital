@@ -42,18 +42,6 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.127" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="97dp"
-        android:layout_height="65dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.087"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.325"
-        app:srcCompat="@drawable/white_flies" />
-
     <TextView
         android:id="@+id/textView11"
         android:layout_width="198dp"
@@ -67,17 +55,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.325" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="125dp"
-        android:layout_height="67dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.061"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.745"
-        app:srcCompat="@drawable/bacterialwilt" />
 
     <TextView
         android:id="@+id/textView5"
@@ -104,10 +81,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.898" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="97dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325"
+        app:srcCompat="@drawable/white_flies" />
 
     <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="120dp"
+        android:id="@+id/imgbwilt"
+        android:layout_width="102dp"
+        android:layout_height="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745"
+        app:srcCompat="@drawable/bacterialwilt" />
+
+    <ImageView
+        android:id="@+id/imgfworm"
+        android:layout_width="107dp"
         android:layout_height="81dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
@@ -115,7 +115,7 @@
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintHorizontal_bias="0.029"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.536"

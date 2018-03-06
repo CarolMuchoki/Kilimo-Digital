@@ -64,10 +64,13 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".SignupActivity"
-            android:label="Sign up Page"/>
-        <activity android:name=".CommentActivity"
-            android:label="Comment Area"></activity>
+        <activity
+            android:name=".SignupActivity"
+            android:label="Sign up Page" />
+        <activity
+            android:name=".CommentActivity"
+            android:label="Comment Area" />
+        <activity android:name=".chatActivity"></activity>
     </application>
 
 </manifest>
