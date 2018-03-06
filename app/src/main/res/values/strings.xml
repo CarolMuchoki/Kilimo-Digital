@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Kilimo App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="pest">Common Pests</string>
+    <string name="army">Army Worm commonly affects maize, Rice, sorghum, and sugarcane.</string>
+    <string name="whiteflies">Whiteflies affects vegetable such as tomotoes and peas</string>
+    <string name="bacterialwilt">Bacterialwilt affects tomatoes and eggplant</string>
+    <string name="fruitworm">The tomato fruitworm feeds on tomato leaves and fruits</string>
+    <string name="market">Kilimo Market Place</string>
+    <string name="items">Maize
+        Beans
+        Carrots
+        Peas
+        Beans</string>
+    <string-array name="crop_array">
+        <item>Maize</item>
+        <item>SweetPotatoes</item>
+    </string-array>
+    <string-array name="Select_Location">
+        <item>Kitale</item>
+        <item>Emali</item>
+        <item>Butali</item>
+        <item>Kiminini</item>
+        <item>Thika</item>
+        <item>Juja</item>
+        <item>Kitengela</item>
+        <item>Pokot</item>
+    </string-array>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_buyer">BuyerActivity</string>
+    <string name="title_activity_sell">SellActivity</string>
+    <string name="title_activity_buy">BuyActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+</resources>
