@@ -14,7 +14,7 @@ public class DisplayMessage extends AppCompatActivity {
     }
 
     public void goHome(View view) {
-        Intent i= new Intent(getApplicationContext(),MainActivity.class);
+        Intent i= new Intent(getApplicationContext(),NavActivity.class);
         startActivity(i);
     }
 

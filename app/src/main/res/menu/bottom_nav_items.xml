@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        />
+    <item
+        android:id="@+id/menu_skills"
+        android:title="Skills"
+        android:enabled="true"
+        android:icon="@drawable/farm_skills"
+        />
+
+    <item
+        android:id="@+id/menu_diary"
+        android:title="Diary"
+        android:icon="@drawable/farm_diary" />
+    <item
+        android:id="@+id/menu_market"
+        android:title="Market"
+        android:enabled="true"
+        android:icon="@drawable/farm_market" />
+    <item
+        android:id="@+id/menu_transport"
+        android:title="Transporters"
+        android:enabled="true"
+        android:icon="@drawable/truck" />
+
+
+</menu>

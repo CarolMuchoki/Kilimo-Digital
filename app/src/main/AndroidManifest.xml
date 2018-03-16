@@ -23,16 +23,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:label="Kilimo Digital"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".DiaryActivity"
             android:label="Diary" />
         <activity
@@ -70,7 +60,14 @@
         <activity
             android:name=".CommentActivity"
             android:label="Comment Area" />
-        <activity android:name=".chatActivity"></activity>
+        <activity android:name=".chatActivity" />
+        <activity android:name=".NavActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -108,7 +108,7 @@ public class FarmSkills extends AppCompatActivity  {
             startActivity(intent);
     }
     public boolean onCreateOptionsMenu(Menu menu){
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.bottom_nav_items, menu);
         return true;
     }
 
