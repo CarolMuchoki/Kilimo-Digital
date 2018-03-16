@@ -40,7 +40,7 @@ public class cardAdapter extends RecyclerView.Adapter<cardAdapter.PestModelViewH
     }
     @Override
     public PestModelViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
-        View v= LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.content_main,viewGroup,false);
+        View v= LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.fragment_card,viewGroup,false);
         PestModelViewHolder pvh=new PestModelViewHolder(v);
         return pvh;
     }
