@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "882161030988",
+    "firebase_url": "https://kilimo-digital.firebaseio.com",
+    "project_id": "kilimo-digital",
+    "storage_bucket": "kilimo-digital.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882161030988:android:94f70f0af9839c08",
+        "android_client_info": {
+          "package_name": "com.example.carol.kilimodigital2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882161030988-mcodeqvbp4ept7dhioofmlushi1oeupa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carol.kilimodigital2",
+            "certificate_hash": "a54a78a70d96589abebbbc00d0073b40be432127"
+          }
+        },
+        {
+          "client_id": "882161030988-3j11cou2vsqm29a5guo0abta5777a2up.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHRQl2RxNLkNDD8X7-KjBbSHXqRMg5kDs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882161030988-3j11cou2vsqm29a5guo0abta5777a2up.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

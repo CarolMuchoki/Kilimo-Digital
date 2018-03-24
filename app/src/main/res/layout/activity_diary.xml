@@ -8,7 +8,6 @@
     tools:context="com.example.carol.kilimodigital2.DiaryActivity">
 
     <TextView
-        android:id="@+id/textView2"
         android:layout_width="346dp"
         android:layout_height="42dp"
         android:layout_marginBottom="452dp"
@@ -59,7 +58,6 @@
         app:layout_constraintVertical_bias="0.285" />
 
     <Spinner
-        android:id="@+id/spinner"
         android:layout_width="116dp"
         android:layout_height="40dp"
         android:layout_marginBottom="8dp"
@@ -94,7 +92,6 @@
         app:layout_constraintVertical_bias="0.852" />
 
     <TextView
-        android:id="@+id/textView6"
         android:layout_width="147dp"
         android:layout_height="45dp"
         android:layout_marginBottom="8dp"
@@ -112,7 +109,6 @@
         app:layout_constraintVertical_bias="0.615" />
 
     <TextView
-        android:id="@+id/textView7"
         android:layout_width="150dp"
         android:layout_height="34dp"
         android:layout_marginBottom="8dp"
@@ -130,7 +126,6 @@
         app:layout_constraintVertical_bias="0.44" />
 
     <EditText
-        android:id="@+id/date"
         android:layout_width="173dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"

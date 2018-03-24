@@ -25,18 +25,15 @@
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="173dp"
+                android:layout_width="match_parent"
                 android:layout_height="44dp"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="41dp"
-                android:layout_marginStart="41dp"
-                android:layout_toEndOf="@+id/pest_photo"
-                android:layout_toRightOf="@+id/pest_photo"
                 android:text="@string/pest"
                 android:textSize="20dp"
+                android:gravity="center"
                 android:textStyle="bold"
-                tools:layout_editor_absoluteX="93dp"
-                tools:layout_editor_absoluteY="3dp" />
+                android:textColor="@android:color/black"
+                />
 
             <ImageView
                 android:id="@+id/pest_photo"

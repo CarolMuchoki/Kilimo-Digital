@@ -1,3 +1,4 @@
+/*
 package com.example.carol.kilimodigital2;
 
 import android.Manifest;
@@ -72,10 +73,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
         // Add a marker in Sydney and move the camera
-       /* LatLng sydney = new LatLng(-34, 151);
+       */
+/* LatLng sydney = new LatLng(-34, 151);
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
-    }*/
+    }*//*
+
         protected synchronized void buildGoogleApiClient() {
            // mGoogleApiClient = new GoogleApiClient.Builder(this)
            //         .addConnectionCallbacks(this)
@@ -159,7 +162,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             return true;
         }
     }
-   /* @Override
+   */
+/* @Override
     public void onRequestPermissionsResult(int requestCode,
                                            String permissions[], int[] grantResults) {
         switch (requestCode) {
@@ -192,7 +196,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             // You can add here other case statements according to your requirement.
         }
     }
-}*/
+}*//*
+
 
 
     @Override
@@ -244,4 +249,4 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
 
-    }
+    }*/

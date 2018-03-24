@@ -8,7 +8,6 @@
 
 
     <TextView
-        android:id="@+id/textView10"
         android:layout_width="165dp"
         android:layout_height="58dp"
         android:layout_marginBottom="8dp"
@@ -26,7 +25,6 @@
         app:layout_constraintVertical_bias="0.052" />
 
     <Button
-        android:id="@+id/button4"
         android:layout_width="136dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -42,7 +40,6 @@
         app:layout_constraintVertical_bias="0.597" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
         android:layout_width="95dp"
         android:layout_height="61dp"
         android:layout_marginBottom="8dp"
@@ -58,7 +55,6 @@
         app:srcCompat="@drawable/ic_menu_camera" />
 
     <TextView
-        android:id="@+id/textView12"
         android:layout_width="166dp"
         android:layout_height="51dp"
         android:layout_marginBottom="8dp"
@@ -74,7 +70,6 @@
         app:layout_constraintVertical_bias="0.256" />
 
     <TextView
-        android:id="@+id/textView13"
         android:layout_width="116dp"
         android:layout_height="28dp"
         android:layout_marginBottom="8dp"

@@ -10,10 +10,10 @@ import java.util.List;
  */
 
 public class PestModel {
-    private String pestName;
-    private int photoId;
-    private String readMore;
-    private Button showMore;
+    public String pestName;
+    public int photoId;
+    public String readMore;
+    public Button showMore;
 
     public String getPestName() {
         return pestName;

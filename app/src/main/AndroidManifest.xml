@@ -24,16 +24,35 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".DiaryActivity"
-            android:label="Diary" />
+            android:label="Diary" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".DiaryActivity" />
+
+        </activity>
+
+
         <activity
             android:name=".DisplayMessage"
             android:label="Message" />
         <activity
             android:name=".FarmSkills"
-            android:label="Skills" />
+            android:label="Skills" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".FarmSkills" />
+        </activity>
+
         <activity
             android:name=".MarketActivity"
-            android:label="Market" />
+            android:label="Market" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MarketActivity" />
+
+        </activity>
+
+
         <activity android:name=".sellActivity" />
         <activity
             android:name=".BuyActivity"
@@ -51,9 +70,11 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps" />
+        <!--
+               <activity
+               android:name=".MapsActivity"
+               android:label="@string/title_activity_maps" />
+        -->
         <activity
             android:name=".SignupActivity"
             android:label="Sign up Page" />
@@ -68,6 +89,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Activity_Pest_Website"></activity>
     </application>
 
 </manifest>
