@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context="com.example.carol.kilimodigital2.Activity_Home">
+    tools:context="com.example.carol.kilimodigital2.NavActivity">
 
 
     <android.support.v7.widget.RecyclerView
