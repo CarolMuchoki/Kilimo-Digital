@@ -91,7 +91,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity_Pest_Website"></activity>
+        <activity android:name=".Activity_Pest_Website">
+
+        </activity>
     </application>
 
 </manifest>
