@@ -18,43 +18,35 @@
 
     <application
         android:allowBackup="true"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:roundIcon="@drawable/logo"
-        android:icon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".DiaryActivity"
-            android:label="Diary" >
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".DiaryActivity" />
-
+            android:label="Diary">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DiaryActivity" />
         </activity>
-
-
         <activity
             android:name=".DisplayMessage"
             android:label="Message" />
         <activity
             android:name=".FarmSkills"
-            android:label="Skills" >
-
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".FarmSkills" />
+            android:label="Skills">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FarmSkills" />
         </activity>
-
         <activity
             android:name=".MarketActivity"
-            android:label="Market" >
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MarketActivity" />
-
+            android:label="Market">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MarketActivity" />
         </activity>
-
-
         <activity android:name=".sellActivity" />
         <activity
             android:name=".BuyActivity"
@@ -91,9 +83,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity_Pest_Website">
-
-        </activity>
+        <activity android:name=".Activity_Pest_Website" />
+        <activity android:name=".TransportActivity" />
+        <activity android:name=".ListofDriversActivity"></activity>
     </application>
 
 </manifest>

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -113,6 +114,11 @@ public class NavActivity extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(), MarketActivity.class));
 
                         break;
+                    case R.id.menu_transport:
+
+                        startActivity(new Intent(getApplicationContext(), TransportActivity.class));
+
+                        break;
 
 
                 }
@@ -122,7 +128,13 @@ public class NavActivity extends AppCompatActivity {
             }
         });
 
+        /*bottomNavigationView = (BottomNavigationView)
+                findViewById(R.id.navigation);
+        CoordinatorLayout.LayoutParams layoutParams = (CoordinatorLayout.LayoutParams) BottomNavigationView.getLayoutParams();
+        layoutParams.setBehavior(new BottomNavigationViewBehavior());*/
+
     }
+
 
     @Override
     public void onStart() {

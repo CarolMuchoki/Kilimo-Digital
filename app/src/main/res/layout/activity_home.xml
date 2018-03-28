@@ -15,6 +15,8 @@
         android:clipToPadding="false"
         android:scrollbars="vertical" />
 
+
+
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
         android:layout_width="match_parent"
@@ -24,6 +26,9 @@
         app:itemBackground="@color/colorGreenDark"
         app:itemIconTint="@color/colorWhite"
         app:itemTextColor="@color/colorPrimaryDark"
-        app:menu="@menu/bottom_nav_items" />
+        app:menu="@menu/bottom_nav_items"
+        app:layout_behavior= "com.example.carol.kilimodigital2"
+        />
+
 
 </RelativeLayout>

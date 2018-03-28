@@ -14,16 +14,6 @@
         android:clipToPadding="false"
         android:scrollbars="vertical" />
 
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="start"
-        app:itemBackground="@color/colorGreenDark"
-        app:itemIconTint="@color/colorWhite"
-        app:itemTextColor="@color/colorPrimaryDark"
-        app:menu="@menu/bottom_nav_items" />
 
 
 

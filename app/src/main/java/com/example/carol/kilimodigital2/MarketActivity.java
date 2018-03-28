@@ -70,45 +70,6 @@ public class MarketActivity extends AppCompatActivity {
 
         mPeopleRV.setAdapter(mPeopleRVAdapter);
 
-        BottomNavigationView bottomNavigationView = (BottomNavigationView)
-                findViewById(R.id.navigation);
-
-        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-
-                switch (item.getItemId()) {
-                    case R.id.menu_home:
-
-                        startActivity(new Intent(getApplicationContext(), NavActivity.class));
-
-                        break;
-
-                    case R.id.menu_skills:
-
-                        startActivity(new Intent(getApplicationContext(), FarmSkills.class));
-
-                        break;
-
-                    case R.id.menu_diary:
-
-                        startActivity(new Intent(getApplicationContext(), DiaryActivity.class));
-
-                        break;
-
-                    case R.id.menu_market:
-
-                        startActivity(new Intent(getApplicationContext(), MarketActivity.class));
-
-                        break;
-
-
-                }
-
-
-                return true;
-            }
-        });
 
     }
 
