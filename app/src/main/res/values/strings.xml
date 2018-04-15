@@ -7,6 +7,16 @@
     <string name="ok_label">OK</string>
     <string name="dismiss_label">Dismiss</string>
     <string name="clear_all_label">Clear all</string>
+    <string name="image">Image</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="enter_a_brief_title">Enter a brief title</string>
+    <string name="your_price">Your price</string>
+    <string name="describe_your_item">Describe your item</string>
+    <string name="your_name">Your name</string>
+    <string name="your_mobile_number">Your mobile number</string>
+    <string name="post_your_item">Post Item</string>
+    <string name="loading">loading</string>
+    <string name="item_image">item image</string>
     <string-array name="crop_array">
         <item>Maize</item>
         <item>SweetPotatoes</item>

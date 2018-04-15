@@ -1,65 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#e0e0e0"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:padding="3dp">
 
     <android.support.v7.widget.CardView
         android:id="@+id/card_view"
         android:layout_width="match_parent"
         android:layout_height="130dp"
-        android:elevation="90dp"
-       app:cardCornerRadius="0dp">
+        android:layout_margin="2dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="3dp">
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="16dp">
+            android:orientation="horizontal"
+            android:padding="5dp">
 
             <ImageView
                 android:id="@+id/image_pest"
-                android:layout_width="130dp"
-                android:layout_height="130dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginRight="16dp"/>
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/truck" />
 
-
-            <TextView
-                android:id="@+id/topic"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="16dp"
-                android:ellipsize="end"
-                android:maxLines="1"
-                android:singleLine="true"
-                android:text="Topic"
-                android:textColor="@android:color/black"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/content"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/topic"
-                android:layout_alignStart="@+id/topic"
-                android:layout_centerVertical="true"
-                android:layout_toEndOf="@+id/image_pest"
-                android:layout_toRightOf="@+id/image_pest"
-                android:ellipsize="end"
-                android:maxLines="2"
-                android:text="Content"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="12dp" />
+                android:layout_weight=".5"
+                android:orientation="vertical"
+                android:padding="10dp">
 
+                <TextView
+                    android:id="@+id/topic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="Topic"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
 
-        </RelativeLayout>
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="4"
+                    android:singleLine="false"
+                    android:text="Content"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+        </LinearLayout>
     </android.support.v7.widget.CardView>
 </LinearLayout>

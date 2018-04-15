@@ -41,14 +41,17 @@ public class NavActivity extends AppCompatActivity {
 
         //"News" here will reflect what you have called your database in Firebase.
         mDatabase = FirebaseDatabase.getInstance().getReference().child("message");
-        mDatabase.keepSynced(true);
+       mDatabase.keepSynced(true);
 
-        mPeopleRV = (RecyclerView) findViewById(R.id.recycler_view);
+        final BottomNavigationView bottomNavigationView = findViewById(R.id.navigation);
+
+
+        mPeopleRV = findViewById(R.id.recycler_view);
 
         DatabaseReference personsRef = FirebaseDatabase.getInstance().getReference().child("message");
         Query personsQuery = personsRef.orderByKey();
 
-        mPeopleRV.hasFixedSize();
+        mPeopleRV.setHasFixedSize(false);
         mPeopleRV.setLayoutManager(new LinearLayoutManager(this));
 
         FirebaseRecyclerOptions personsOptions = new FirebaseRecyclerOptions.Builder<Home_Model>().setQuery(personsQuery, Home_Model.class).build();
@@ -82,10 +85,24 @@ public class NavActivity extends AppCompatActivity {
         };
 
         mPeopleRV.setAdapter(mPeopleRVAdapter);
+        mPeopleRV.setOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+                super.onScrollStateChanged(recyclerView, newState);
+            }
 
-        BottomNavigationView bottomNavigationView = (BottomNavigationView)
-                findViewById(R.id.navigation);
-
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                if (dy>0 && bottomNavigationView.isShown()){
+                    bottomNavigationView.setVisibility(View.GONE);
+                }else if(dy<0){
+                    bottomNavigationView.setVisibility(View.VISIBLE);
+                }
+            }
+        });
+        /*CoordinatorLayout.LayoutParams layoutParams= (CoordinatorLayout.LayoutParams) bottomNavigationView.getLayoutParams();
+        layoutParams.setBehavior(new BottomNavigationViewBehavior());
+*/
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -161,17 +178,17 @@ public class NavActivity extends AppCompatActivity {
         }
 
         public void setTitle(String title) {
-            TextView post_title = (TextView) mView.findViewById(R.id.topic);
+            TextView post_title = mView.findViewById(R.id.topic);
             post_title.setText(title);
         }
 
         public void setDesc(String desc) {
-            TextView post_desc = (TextView) mView.findViewById(R.id.content);
+            TextView post_desc = mView.findViewById(R.id.content);
             post_desc.setText(desc);
         }
 
         public void setImage(Context ctx, String image) {
-            ImageView post_image = (ImageView) mView.findViewById(R.id.image_pest);
+            ImageView post_image = mView.findViewById(R.id.image_pest);
             Picasso.with(ctx).load(image).into(post_image);
         }
     }
